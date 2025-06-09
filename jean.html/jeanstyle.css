@@ -1,0 +1,162 @@
+* {
+  font-family: sans-serif;
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;	
+}
+a{
+	text-decoration: none;
+	
+}
+ul.menu{
+	background:#d1d1d1;
+	height: 50px;
+	
+}
+ul.menu >li{
+	float: left;
+	position: relative;
+	
+}
+ul.menu >li >a{
+	display: block;
+	font-size:14px;
+	color: #fff;
+	padding:0 15px;
+	line-height: 50px;
+	border-right: 1px solid rgba(0,0,0,.1);
+	
+}
+ul.menu ul {
+	background: #05b9fa;
+	width: 200px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	opacity: 0;
+	transition: 250ms all;
+	visibility: hidden;
+	
+}
+ul.menu ul li a{
+	display: block;
+	padding:7px 12px;
+	color: #fff;
+	font-size: 14px;
+	
+}
+ul.menu >li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	top: 50px;
+}
+ul.menu li a:hover{
+	color: #0380ad;
+	transition: 500ms all;
+}
+.baggy-box 
+{
+	background-color: #fff;
+	width: 600px;
+	height: 40px;	
+	border: 2px solid grey;
+	border-radius: 50px;
+	text-align: left;
+	padding:60px 45px;
+	margin-top: 50px;
+	font-size:40px;
+	
+	
+}
+.baggy-box img
+{
+	width: 150px;
+	height: auto;
+	display: block;
+	margin: -130px auto;
+	margin-right: 0;
+		
+}
+.baggy-box a {
+	color: #045775;
+}
+.wide-box 
+{
+	background-color: #fff;
+	width: 600px;
+	height: 40px;	
+	border: 2px solid grey;
+	border-radius: 50px;
+	text-align: left;
+	padding:60px 45px;
+	margin-top: 50px;
+	font-size:40px;
+	
+	
+}
+.wide-box img
+{
+	width: 150px;
+	height: auto;
+	display: block;
+	margin: -130px auto;
+	margin-right: 0;
+		
+}
+.wide-box a {
+	color: #045775;
+}
+.flare-box 
+{
+	background-color: #fff;
+	width: 600px;
+	height: 40px;	
+	border: 2px solid grey;
+	border-radius: 50px;
+	text-align: left;
+	padding:60px 45px;
+	margin-top: 50px;
+	font-size:40px;
+	
+	
+}
+.flare-box img
+{
+	width:420px;
+	height: auto;
+	display: block;
+	margin: -180px auto;
+	margin-left: 320px;
+		
+}
+.flare-box a {
+	color: #045775;
+}
+.straight-box 
+{
+	background-color: #fff;
+	width: 600px;
+	height: 40px;	
+	border: 2px solid grey;
+	border-radius: 50px;
+	text-align: left;
+	padding:60px 45px;
+	margin-top: 50px;
+	font-size:40px;
+	
+	
+}
+.straight-box img
+{
+	width:420px;
+	height: auto;
+	display: block;
+	margin: -180px auto;
+	margin-left: 320px;
+		
+}
+.straight-box a {
+	color: #045775;
+}
